@@ -254,6 +254,50 @@ class Character extends FlxSprite
 
 				flipX = true;
 
+            case 'bfprol1':
+				tex = Paths.getSparrowAtlas('characters/Prologue/BoyFriend_Assets_Prologue1');
+				frames = tex;
+				boyfriendAnimation();
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+
+				flipX = true;
+
+            case 'bfprol2':
+				tex = Paths.getSparrowAtlas('characters/Prologue/BoyFriend_Assets_Prologue2');
+				frames = tex;
+				boyfriendAnimation();
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+
+				flipX = true;
+
+            case 'bfprol3':
+				tex = Paths.getSparrowAtlas('characters/Prologue/BoyFriend_Assets_Prologue3');
+				frames = tex;
+				boyfriendAnimation();
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+
+				flipX = true;
+
+            case 'bfprol4':
+				tex = Paths.getSparrowAtlas('characters/Prologue/BoyFriend_Assets_Prologue4');
+				frames = tex;
+				boyfriendAnimation();
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+
+				flipX = true;
+
 			case 'bf-christmas':
 				tex = Paths.getSparrowAtlas('christmas/bfChristmas');
 				frames = tex;
